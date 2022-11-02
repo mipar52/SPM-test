@@ -15,14 +15,14 @@ public class MyWeatherSDK {
 //       let weatherViewController = UIStoryboard(name: "Main", bundle: .main).instantiateViewController(withIdentifier: "weatherVC")
         
        let sb = UIStoryboard(name: "Main", bundle: Bundle(for: HomeViewController.self))
-       let nextVC = sb.instantiateInitialViewController() as! HomeViewController
+       let nextVC = sb.instantiateInitialViewController() // as! HomeViewController
        
        let bundle = UIStoryboard(name: "Main", bundle: Bundle(for: HomeViewController.self))
        let vc = bundle.instantiateInitialViewController()!
        
         viewController.modalPresentationStyle = .fullScreen
-        viewController.navigationController?.pushViewController(nextVC, animated: true)
-        viewController.present(nextVC, animated: true)
+       viewController.navigationController?.pushViewController(nextVC!, animated: true)
+        viewController.present(nextVC!, animated: true)
        
        
         print("pushing vc")
