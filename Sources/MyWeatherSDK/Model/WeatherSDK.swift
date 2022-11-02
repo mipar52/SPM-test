@@ -13,7 +13,8 @@ public class MyWeatherSDK {
     
    public func presentWeatherVC(_ viewController: UIViewController) {
        
-       let weatherViewController = UIStoryboard(name: "Main", bundle: Bundle(for: HomeViewController.self)).instantiateViewController(withIdentifier: "weatherVC") as! HomeViewController
+       let frameworkBundle = Bundle(identifier: "MyWeatherSDK")
+       let weatherViewController = UIStoryboard(name: "Main", bundle: frameworkBundle).instantiateViewController(withIdentifier: "weatherVC") as! HomeViewController
        
    
        viewController.modalPresentationStyle = .fullScreen
