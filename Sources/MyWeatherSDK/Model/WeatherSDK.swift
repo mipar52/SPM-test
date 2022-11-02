@@ -9,6 +9,8 @@ import Foundation
 import UIKit
 
 public class MyWeatherSDK {
+    public init() {}
+    
     func presentWeatherVC(_ viewController: UIViewController) {
         let navController = viewController.navigationController
         let weatherViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "weatherVC")
