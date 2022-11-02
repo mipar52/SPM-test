@@ -15,7 +15,7 @@ public class MyWeatherSDK {
        
        let frameworkBundle = Bundle(for: HomeViewController.self)
 //       let weatherViewController = UIStoryboard(name: "Main", bundle: frameworkBundle).instantiateInitialViewController() as! HomeViewController
-       let homeVC = HomeViewController(nibName: "HomeViewController", bundle: .module)
+       let homeVC = HomeViewController(nibName: "", bundle: .module)
    
        viewController.modalPresentationStyle = .fullScreen
        viewController.navigationController?.pushViewController(homeVC, animated: true)
