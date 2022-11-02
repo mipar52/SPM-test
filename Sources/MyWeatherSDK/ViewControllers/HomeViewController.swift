@@ -17,6 +17,7 @@ import MapKit
 
 //napravit SDK - taj SDK vrati ovaj VC
 //napravit SP - viewcontroller vrati ovaj vc od vremena u stack
+
 //bonus zadatak -> dodas oblake npr. ako je mostly sunny -> nek se oblaci krecu (neka lagana brzina :D)
 //ako se na oblak tapne -> fade in/fade out
 //za iduci tjedan potencijalno (za 2 tjedna) -> pogledat cmake -> izgenerirat projekt za dobit feel
