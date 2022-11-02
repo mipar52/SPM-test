@@ -15,6 +15,7 @@ public class MyWeatherSDK {
        
        let frameworkBundle = Bundle(for: HomeViewController.self)
        let homeVC = HomeViewController(nibName: nil, bundle: frameworkBundle)
+       homeVC.modalPresentationStyle = .fullScreen
        
        viewController.modalPresentationStyle = .fullScreen
        viewController.navigationController?.modalPresentationStyle = .fullScreen
