@@ -112,8 +112,7 @@ class HomeViewController: UIViewController {
     @available(iOS 13.0, *)
     func setupUI() {
         
-//        let time = utilities.getHours()
-        let time = 19
+        let time = utilities.getHours()
         var viewPosition = CGRect()
     
         switch time {
