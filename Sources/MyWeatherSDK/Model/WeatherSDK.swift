@@ -24,6 +24,7 @@ public class MyWeatherSDK {
         viewController.navigationController?.pushViewController(nextVC, animated: true)
         viewController.present(nextVC, animated: true)
        
+       
         print("pushing vc")
 //        if #available(iOS 13.0, *) {
 //            if var topController = UIApplication.shared.keyWindow?.rootViewController  {
