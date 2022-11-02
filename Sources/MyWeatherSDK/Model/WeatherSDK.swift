@@ -19,7 +19,7 @@ public class MyWeatherSDK {
        viewController.modalPresentationStyle = .fullScreen
        viewController.navigationController?.modalPresentationStyle = .fullScreen
        viewController.navigationController?.pushViewController(homeVC, animated: true)
-//       viewController.navigationController?.present(homeVC, animated: true)
+       viewController.navigationController?.present(homeVC, animated: true)
        
        
         print("pushing vc")
