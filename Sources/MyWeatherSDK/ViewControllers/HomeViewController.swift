@@ -22,7 +22,7 @@ import MapKit
 //ako se na oblak tapne -> fade in/fade out
 //za iduci tjedan potencijalno (za 2 tjedna) -> pogledat cmake -> izgenerirat projekt za dobit feel
 
-class HomeViewController: UIViewController {
+public class HomeViewController: UIViewController {
     
     
     let cityLabel = UILabel()
@@ -72,7 +72,7 @@ class HomeViewController: UIViewController {
     let locationManager = CLLocationManager()
     let weatherManager = WeatherHelper()
     
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
         if #available(iOS 13.0, *) {
             setupUI()
@@ -241,7 +241,7 @@ extension HomeViewController: CLLocationManagerDelegate {
         locationManager.requestWhenInUseAuthorization()
     }
     
-    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+    public func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         
         guard let locValue: CLLocationCoordinate2D = manager.location?.coordinate else {print("Could not get location"); return }
         print("location: \(locValue.latitude) \(locValue.longitude)")
@@ -255,7 +255,7 @@ extension HomeViewController: CLLocationManagerDelegate {
         locationManager.stopUpdatingLocation()
     }
     
-    func locationManagerDidChangeAuthorization(_ manager: CLLocationManager) {
+    public func locationManagerDidChangeAuthorization(_ manager: CLLocationManager) {
         locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters
         locationManager.startUpdatingLocation()
     }
