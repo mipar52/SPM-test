@@ -1,0 +1,340 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MyWeatherSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MyWeatherSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MyWeatherSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MyWeatherSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SDK",
+        "printedName": "SDK",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(apiKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MyWeatherSDK0C0C9configure6apiKeyySS_tFZ",
+            "mangledName": "$s12MyWeatherSDK0C0C9configure6apiKeyySS_tFZ",
+            "moduleName": "MyWeatherSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12MyWeatherSDK0C0C",
+        "mangledName": "$s12MyWeatherSDK0C0C",
+        "moduleName": "MyWeatherSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MyWeatherSDK",
+        "printedName": "MyWeatherSDK",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MyWeatherSDK",
+                "printedName": "MyWeatherSDK.MyWeatherSDK",
+                "usr": "s:12MyWeatherSDKAAC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12MyWeatherSDKAACABycfc",
+            "mangledName": "$s12MyWeatherSDKAACABycfc",
+            "moduleName": "MyWeatherSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "presentWeatherVC",
+            "printedName": "presentWeatherVC(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MyWeatherSDKAAC07presentB2VCyySo16UIViewControllerCF",
+            "mangledName": "$s12MyWeatherSDKAAC07presentB2VCyySo16UIViewControllerCF",
+            "moduleName": "MyWeatherSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12MyWeatherSDKAAC",
+        "mangledName": "$s12MyWeatherSDKAAC",
+        "moduleName": "MyWeatherSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MyWeatherSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MyWeatherSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MyWeatherSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MyWeatherSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MyWeatherSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MyWeatherSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MyWeatherSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MyWeatherSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "MapKit",
+        "printedName": "MapKit",
+        "declKind": "Import",
+        "moduleName": "MyWeatherSDK"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/milanparadina\/Desktop\/DeviOS\/devios_practice\/Frameworks\/MyWeatherSDK\/MyWeatherSDK\/Model\/WeatherSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 186,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/milanparadina\/Desktop\/DeviOS\/devios_practice\/Frameworks\/MyWeatherSDK\/MyWeatherSDK\/Model\/WeatherSDK.swift",
+      "kind": "Array",
+      "offset": 225,
+      "length": 17,
+      "value": "[\"privateKey123\"]"
+    },
+    {
+      "filePath": "\/Users\/milanparadina\/Desktop\/DeviOS\/devios_practice\/Frameworks\/MyWeatherSDK\/MyWeatherSDK\/ViewControllers\/HomeViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1231,
+      "length": 15,
+      "value": "\"cloud.drizzle\""
+    },
+    {
+      "filePath": "\/Users\/milanparadina\/Desktop\/DeviOS\/devios_practice\/Frameworks\/MyWeatherSDK\/MyWeatherSDK\/ViewControllers\/HomeViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1312,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/milanparadina\/Desktop\/DeviOS\/devios_practice\/Frameworks\/MyWeatherSDK\/MyWeatherSDK\/ViewControllers\/HomeViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1319,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/milanparadina\/Desktop\/DeviOS\/devios_practice\/Frameworks\/MyWeatherSDK\/MyWeatherSDK\/ViewControllers\/HomeViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1330,
+      "length": 3,
+      "value": "374"
+    },
+    {
+      "filePath": "\/Users\/milanparadina\/Desktop\/DeviOS\/devios_practice\/Frameworks\/MyWeatherSDK\/MyWeatherSDK\/ViewControllers\/HomeViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1343,
+      "length": 3,
+      "value": "300"
+    },
+    {
+      "filePath": "\/Users\/milanparadina\/Desktop\/DeviOS\/devios_practice\/Frameworks\/MyWeatherSDK\/MyWeatherSDK\/ViewControllers\/HomeViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1562,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/milanparadina\/Desktop\/DeviOS\/devios_practice\/Frameworks\/MyWeatherSDK\/MyWeatherSDK\/ViewControllers\/HomeViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1569,
+      "length": 3,
+      "value": "275"
+    },
+    {
+      "filePath": "\/Users\/milanparadina\/Desktop\/DeviOS\/devios_practice\/Frameworks\/MyWeatherSDK\/MyWeatherSDK\/ViewControllers\/HomeViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1581,
+      "length": 3,
+      "value": "374"
+    },
+    {
+      "filePath": "\/Users\/milanparadina\/Desktop\/DeviOS\/devios_practice\/Frameworks\/MyWeatherSDK\/MyWeatherSDK\/ViewControllers\/HomeViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1594,
+      "length": 3,
+      "value": "150"
+    },
+    {
+      "filePath": "\/Users\/milanparadina\/Desktop\/DeviOS\/devios_practice\/Frameworks\/MyWeatherSDK\/MyWeatherSDK\/ViewControllers\/HomeViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1686,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/milanparadina\/Desktop\/DeviOS\/devios_practice\/Frameworks\/MyWeatherSDK\/MyWeatherSDK\/ViewControllers\/HomeViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1751,
+      "length": 14,
+      "value": "\"MyWeatherApp\""
+    },
+    {
+      "filePath": "\/Users\/milanparadina\/Desktop\/DeviOS\/devios_practice\/Frameworks\/MyWeatherSDK\/MyWeatherSDK\/ViewControllers\/HomeViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2025,
+      "length": 15,
+      "value": "\"Good day, sir\""
+    },
+    {
+      "filePath": "\/Users\/milanparadina\/Desktop\/DeviOS\/devios_practice\/Frameworks\/MyWeatherSDK\/MyWeatherSDK\/ViewControllers\/HomeViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2056,
+      "length": 16,
+      "value": "\"greeting_label\""
+    },
+    {
+      "filePath": "\/Users\/milanparadina\/Desktop\/DeviOS\/devios_practice\/Frameworks\/MyWeatherSDK\/MyWeatherSDK\/ViewControllers\/HomeViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2153,
+      "length": 2,
+      "value": "35"
+    }
+  ]
+}
